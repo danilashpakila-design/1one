@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ПОЗДРАВЛЯЕМ! Ты выиграл 10 кейсов</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Конфетти-канвас -->
+  <canvas id="confetti"></canvas>
+
+  <!-- Экран 1: Победитель -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="pre-title">// СИСТЕМНОЕ УВЕДОМЛЕНИЕ //</p>
+      <h1>ПОЗДРАВЛЯЕМ,<br><span class="name">[ИМЯ]</span>!</h1>
+      <p class="win-text">Ты выиграл <span class="gold">10 КЕЙСОВ CS2</span></p>
+
+      <!-- Фотка с рамкой скина -->
+      <div class="photo-frame">
+        <div class="frame-top">
+          <span class="rarity">★ LEGENDARY ★</span>
+          <span class="condition">Factory New</span>
+        </div>
+        <img src="photo.jpg" alt="Красавчик" class="photo">
+        <div class="frame-bottom">
+          <span class="skin-name">[ИМЯ] | Человек-Легенда</span>
+        </div>
+      </div>
+
+      <a href="#why" class="scroll-btn">▼ Почему ты красавчик ▼</a>
+    </div>
+  </section>
+
+  <!-- Экран 2: Почему красавчик -->
+  <section class="why" id="why">
+    <h2>ПОЧЕМУ ТЫ КРАСАВЧИК</h2>
+    <ul class="compliments">
+      <li>Твоя реакция быстрее, чем у 12-летнего с AWP</li>
+      <li>Ты единственный, кто не орёт в войс при виде ножа</li>
+      <li>Твой AIM — как у бота. Но бот хотя бы попадает 😉</li>
+      <li>Ты не токсик. Ну, почти.</li>
+      <li>С тобой даже проигрыш — это кайф</li>
+    </ul>
+    <a href="#next" class="scroll-btn">▼ Что дальше ▼</a>
+  </section>
+
+  <!-- Экран 3: Что дальше -->
+  <section class="next" id="next">
+    <h2>ЧТО ДАЛЬШЕ</h2>
+    <p class="next-text">
+      Кейсы ждут. Но открывать их в одиночку — для слабаков.
+    </p>
+    <p class="next-text gold">
+      Встречаемся в <strong>Аникофе</strong>.<br>
+      Я беру ноут, ты берёшь удачу.<br>
+      Открываем вместе.
+    </p>
+    <button class="cta" onclick="alert('Красавчик. Жди меня. Кейсы уже в инвентаре 😉')">
+      Я В ДЕЛЕ
+    </button>
+    <p class="ps">P.S. Кейсы уже лежат в твоём инвентаре Steam.<br>Проверь — но не открывай без меня 😉</p>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    <p>Сделано с любовью и без единого ключа. С ДР, бро 🎂</p>
+  </footer>
+
+  <script src="confetti.js"></script>
+</body>
+</html>
